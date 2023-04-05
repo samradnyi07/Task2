@@ -1,0 +1,56 @@
+*
+{
+    padding: 12px;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+    
+}
+
+body
+{
+    background-color: rgb(77, 163, 163);
+}
+
+.row
+{
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+
+.loginbutton
+{
+    border: none;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(77, 163, 163);
+    border-radius: 14px;
+    font-weight: bold;
+    
+    transition-delay: 0.1s;
+}
+
+.loginbutton:hover
+{
+    background: #b5487f;
+    width: 80px;
+}
+
+.img
+{
+    align-self: center;
+}
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }

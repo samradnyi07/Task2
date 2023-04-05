@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+    
+}
+/* Nav CSS Start */
+.head{
+    position: fixed;
+    width: 100%;
+    background-color: #fe4066 !important;
+}
+.header-inner{
+    position:fixed;
+    top: 0; left: 0;
+    width: 100%;
+    
+}
+.nav-item .nav-link{
+    display: block;
+    line-height: 39px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 550;
+    color:crimson;
+    transition: 0.15s;
+    padding: 0 10px;
+}
+
+.nav-item .nav-link:hover{
+    color: blue;
+}
+.header-btn{
+    color: aqua;
+    border-radius: 30px;
+    background-color: gray;
+    border: none;
+    font-weight: 550;
+    outline: none;
+    font-size: 15px;
+    padding: 7px 22px;
+    transition: 0.5s;
+}
+.header-btn:hover{
+    background-color: blue;
+    cursor: zoom-in;
+}
+.navbar-scroll{
+    background-color: #fe4066;
+    padding: 0; position: fixed;
+    top: 0;
+    box-shadow: 0px 1px 10px rgba(0,0, 0,0.4);
+    transition-duration: 0.6s;
+}
+.navbar-scroll .nav-item .nav-link{color: black;}
+.navbar-scroll .header-btn{
+    color: #ffffff;
+    
+}
+/* Nav CSS end*/
+/*Education*/
+.edu{
+    margin-top: 200px;
+    
+}
+
+.form{
+    margin-top: 50px;
+}
+/*education info end */
+.review{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.section-header{
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 25px;
+    color: #ffc107!important;
+}
+.section-header::after{
+    
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50%-100px);
+    background: white;
+}
+.section-header span{
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.testimonials{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+}
+.single-item{
+    background: white;
+    color: black;
+    padding: 15px;
+    margin: 50px 15px;
+}
+.profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.img-area{
+    margin: 0 15px 15px 15px;
+
+}
+.img-area img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 7px solid #ffc107!important;
+}
+.content{
+    font-size: 18px;
+}
+.content p{
+    text-align: justify;
+}
+.content p span{
+    font-size: 48px;
+    margin-right: 20px;
+    color: #ffc107!important;
+}
+.socials{
+    margin-right: 10px;
+    padding-right: 15px;
+}
+.bio h4{
+    font-family: berkshire swash;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color: #ffc107!important;
+}

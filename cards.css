@@ -1,0 +1,11 @@
+
+.boxshadow{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.11);
+    margin-top: 40px;
+    width: 350px;
+    
+}
+
+.buttoncard:hover{
+    background-color:  aqua !important;
+}
